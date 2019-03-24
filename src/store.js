@@ -1,19 +1,15 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
+import Vue from 'vue';
+import Vuex from 'vuex';
+import { createMutations } from './plugins/vuex';
 
-Vue.use(Vuex)
+Vue.use(Vuex);
+
+const state = {
+  name: 'shailen',
+  surname: 'naidoo',
+};
 
 export default new Vuex.Store({
-  state: {
-    name: "shailen",
-    surname: "naidoo"
-  },
-  mutations: {
-    UPDATE_NAME(state,val) {
-      state.name = val;
-    },
-    UPDATE_SURNAME(state,val) {
-      state.surname = val;
-    }
-  }
-})
+  state,
+  mutations: createMutations(state),
+});
