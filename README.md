@@ -2,6 +2,8 @@
 
 This project is aimed at providing an abstraction for interacting with Vuex in your Vue components. 
 
+> Proof of concept ❤
+
 ## 🤷‍ Why?
 
 Here is an example:
