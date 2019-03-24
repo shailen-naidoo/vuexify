@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { createMutations } from './plugins/vuex';
+import { createMutations } from './vue-vuex-plugin';
 
 Vue.use(Vuex);
 
