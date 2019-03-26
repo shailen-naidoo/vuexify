@@ -113,3 +113,7 @@ export default {
 }
 </script>
 ```
+
+## 🚚 Roadmap
+
+- [ ] Add support for modules
