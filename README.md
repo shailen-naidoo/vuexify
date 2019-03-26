@@ -116,4 +116,8 @@ export default {
 
 ## 🚚 Roadmap
 
+### 0.1.0
+
+- [ ] Build a working plugin 
+- [ ] Publish plugin in to NPM
 - [ ] Add support for modules
